@@ -109,18 +109,9 @@
 		74F58CA42219A3BF00C8E982 /* InteractiveTransitionAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				74F58CA52219A3BF00C8E982 /* AppDelegate.swift */,
-				74F58CA72219A3BF00C8E982 /* CardViewController.swift */,
-				74F58CA92219A3BF00C8E982 /* Main.storyboard */,
-				74F58CAC2219A3C000C8E982 /* Assets.xcassets */,
-				74F58CAE2219A3C000C8E982 /* LaunchScreen.storyboard */,
-				74F58CB12219A3C000C8E982 /* Info.plist */,
-				74F58CD32219A5F700C8E982 /* SwipeInteractionController.swift */,
-				74F58CD52219A62700C8E982 /* DismissAnimationController.swift */,
-				74F58CD72219A65F00C8E982 /* DismissTransitionDelegate.swift */,
-				74F58CD92219A69100C8E982 /* DismissController.swift */,
-				74F58CDB2219A84C00C8E982 /* RevealViewController.swift */,
-				74F58CDC2219A84C00C8E982 /* RevealViewController.xib */,
+				74F58CE22219AF2C00C8E982 /* Supporting */,
+				74F58CE12219AF0900C8E982 /* View Controllers */,
+				74F58CE32219AF8700C8E982 /* Transition Controllers */,
 			);
 			path = InteractiveTransitionAnimations;
 			sourceTree = "<group>";
@@ -141,6 +132,39 @@
 				74F58CC72219A3C100C8E982 /* Info.plist */,
 			);
 			path = InteractiveTransitionAnimationsUITests;
+			sourceTree = "<group>";
+		};
+		74F58CE12219AF0900C8E982 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				74F58CA72219A3BF00C8E982 /* CardViewController.swift */,
+				74F58CA92219A3BF00C8E982 /* Main.storyboard */,
+				74F58CDB2219A84C00C8E982 /* RevealViewController.swift */,
+				74F58CDC2219A84C00C8E982 /* RevealViewController.xib */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		74F58CE22219AF2C00C8E982 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				74F58CA52219A3BF00C8E982 /* AppDelegate.swift */,
+				74F58CAC2219A3C000C8E982 /* Assets.xcassets */,
+				74F58CAE2219A3C000C8E982 /* LaunchScreen.storyboard */,
+				74F58CB12219A3C000C8E982 /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		74F58CE32219AF8700C8E982 /* Transition Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				74F58CD32219A5F700C8E982 /* SwipeInteractionController.swift */,
+				74F58CD52219A62700C8E982 /* DismissAnimationController.swift */,
+				74F58CD72219A65F00C8E982 /* DismissTransitionDelegate.swift */,
+				74F58CD92219A69100C8E982 /* DismissController.swift */,
+			);
+			path = "Transition Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,7 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InteractiveTransitionAnimations/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InteractiveTransitionAnimations/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,7 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InteractiveTransitionAnimations/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InteractiveTransitionAnimations/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
