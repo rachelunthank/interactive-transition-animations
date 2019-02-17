@@ -1,6 +1,6 @@
 //
-//  interactive_transition_animationsUITests.swift
-//  interactive-transition-animationsUITests
+//  InteractiveTransitionAnimationsUITests.swift
+//  InteractiveTransitionAnimationsUITests
 //
 //  Created by Rachel Unthank on 17/02/2019.
 //  Copyright © 2019 rachelunthank. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class interactive_transition_animationsUITests: XCTestCase {
+class InteractiveTransitionAnimationsUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

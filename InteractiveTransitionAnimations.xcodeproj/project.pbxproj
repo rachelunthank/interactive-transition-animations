@@ -12,8 +12,8 @@
 		74F58CAB2219A3BF00C8E982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F58CA92219A3BF00C8E982 /* Main.storyboard */; };
 		74F58CAD2219A3C000C8E982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F58CAC2219A3C000C8E982 /* Assets.xcassets */; };
 		74F58CB02219A3C000C8E982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F58CAE2219A3C000C8E982 /* LaunchScreen.storyboard */; };
-		74F58CBB2219A3C100C8E982 /* interactive_transition_animationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F58CBA2219A3C100C8E982 /* interactive_transition_animationsTests.swift */; };
-		74F58CC62219A3C100C8E982 /* interactive_transition_animationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F58CC52219A3C100C8E982 /* interactive_transition_animationsUITests.swift */; };
+		74F58CBB2219A3C100C8E982 /* InteractiveTransitionAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F58CBA2219A3C100C8E982 /* InteractiveTransitionAnimationsTests.swift */; };
+		74F58CC62219A3C100C8E982 /* InteractiveTransitionAnimationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F58CC52219A3C100C8E982 /* InteractiveTransitionAnimationsUITests.swift */; };
 		74F58CD42219A5F700C8E982 /* SwipeInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F58CD32219A5F700C8E982 /* SwipeInteractionController.swift */; };
 		74F58CD62219A62700C8E982 /* DismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F58CD52219A62700C8E982 /* DismissAnimationController.swift */; };
 		74F58CD82219A65F00C8E982 /* DismissTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F58CD72219A65F00C8E982 /* DismissTransitionDelegate.swift */; };
@@ -40,18 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		74F58CA22219A3BF00C8E982 /* interactive-transition-animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "interactive-transition-animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F58CA22219A3BF00C8E982 /* InteractiveTransitionAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveTransitionAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F58CA52219A3BF00C8E982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74F58CA72219A3BF00C8E982 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		74F58CAA2219A3BF00C8E982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74F58CAC2219A3C000C8E982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74F58CAF2219A3C000C8E982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74F58CB12219A3C000C8E982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74F58CB62219A3C100C8E982 /* interactive-transition-animationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "interactive-transition-animationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74F58CBA2219A3C100C8E982 /* interactive_transition_animationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interactive_transition_animationsTests.swift; sourceTree = "<group>"; };
+		74F58CB62219A3C100C8E982 /* InteractiveTransitionAnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractiveTransitionAnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F58CBA2219A3C100C8E982 /* InteractiveTransitionAnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveTransitionAnimationsTests.swift; sourceTree = "<group>"; };
 		74F58CBC2219A3C100C8E982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74F58CC12219A3C100C8E982 /* interactive-transition-animationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "interactive-transition-animationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74F58CC52219A3C100C8E982 /* interactive_transition_animationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interactive_transition_animationsUITests.swift; sourceTree = "<group>"; };
+		74F58CC12219A3C100C8E982 /* InteractiveTransitionAnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractiveTransitionAnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F58CC52219A3C100C8E982 /* InteractiveTransitionAnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveTransitionAnimationsUITests.swift; sourceTree = "<group>"; };
 		74F58CC72219A3C100C8E982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74F58CD32219A5F700C8E982 /* SwipeInteractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeInteractionController.swift; sourceTree = "<group>"; };
 		74F58CD52219A62700C8E982 /* DismissAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissAnimationController.swift; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		74F58C992219A3BF00C8E982 = {
 			isa = PBXGroup;
 			children = (
-				74F58CA42219A3BF00C8E982 /* interactive-transition-animations */,
-				74F58CB92219A3C100C8E982 /* interactive-transition-animationsTests */,
-				74F58CC42219A3C100C8E982 /* interactive-transition-animationsUITests */,
+				74F58CA42219A3BF00C8E982 /* InteractiveTransitionAnimations */,
+				74F58CB92219A3C100C8E982 /* InteractiveTransitionAnimationsTests */,
+				74F58CC42219A3C100C8E982 /* InteractiveTransitionAnimationsUITests */,
 				74F58CA32219A3BF00C8E982 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,14 +99,14 @@
 		74F58CA32219A3BF00C8E982 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74F58CA22219A3BF00C8E982 /* interactive-transition-animations.app */,
-				74F58CB62219A3C100C8E982 /* interactive-transition-animationsTests.xctest */,
-				74F58CC12219A3C100C8E982 /* interactive-transition-animationsUITests.xctest */,
+				74F58CA22219A3BF00C8E982 /* InteractiveTransitionAnimations.app */,
+				74F58CB62219A3C100C8E982 /* InteractiveTransitionAnimationsTests.xctest */,
+				74F58CC12219A3C100C8E982 /* InteractiveTransitionAnimationsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		74F58CA42219A3BF00C8E982 /* interactive-transition-animations */ = {
+		74F58CA42219A3BF00C8E982 /* InteractiveTransitionAnimations */ = {
 			isa = PBXGroup;
 			children = (
 				74F58CA52219A3BF00C8E982 /* AppDelegate.swift */,
@@ -122,33 +122,33 @@
 				74F58CDB2219A84C00C8E982 /* RevealViewController.swift */,
 				74F58CDC2219A84C00C8E982 /* RevealViewController.xib */,
 			);
-			path = "interactive-transition-animations";
+			path = InteractiveTransitionAnimations;
 			sourceTree = "<group>";
 		};
-		74F58CB92219A3C100C8E982 /* interactive-transition-animationsTests */ = {
+		74F58CB92219A3C100C8E982 /* InteractiveTransitionAnimationsTests */ = {
 			isa = PBXGroup;
 			children = (
-				74F58CBA2219A3C100C8E982 /* interactive_transition_animationsTests.swift */,
+				74F58CBA2219A3C100C8E982 /* InteractiveTransitionAnimationsTests.swift */,
 				74F58CBC2219A3C100C8E982 /* Info.plist */,
 			);
-			path = "interactive-transition-animationsTests";
+			path = InteractiveTransitionAnimationsTests;
 			sourceTree = "<group>";
 		};
-		74F58CC42219A3C100C8E982 /* interactive-transition-animationsUITests */ = {
+		74F58CC42219A3C100C8E982 /* InteractiveTransitionAnimationsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				74F58CC52219A3C100C8E982 /* interactive_transition_animationsUITests.swift */,
+				74F58CC52219A3C100C8E982 /* InteractiveTransitionAnimationsUITests.swift */,
 				74F58CC72219A3C100C8E982 /* Info.plist */,
 			);
-			path = "interactive-transition-animationsUITests";
+			path = InteractiveTransitionAnimationsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		74F58CA12219A3BF00C8E982 /* interactive-transition-animations */ = {
+		74F58CA12219A3BF00C8E982 /* InteractiveTransitionAnimations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74F58CCA2219A3C100C8E982 /* Build configuration list for PBXNativeTarget "interactive-transition-animations" */;
+			buildConfigurationList = 74F58CCA2219A3C100C8E982 /* Build configuration list for PBXNativeTarget "InteractiveTransitionAnimations" */;
 			buildPhases = (
 				74F58C9E2219A3BF00C8E982 /* Sources */,
 				74F58C9F2219A3BF00C8E982 /* Frameworks */,
@@ -158,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = "interactive-transition-animations";
+			name = InteractiveTransitionAnimations;
 			productName = "interactive-transition-animations";
-			productReference = 74F58CA22219A3BF00C8E982 /* interactive-transition-animations.app */;
+			productReference = 74F58CA22219A3BF00C8E982 /* InteractiveTransitionAnimations.app */;
 			productType = "com.apple.product-type.application";
 		};
-		74F58CB52219A3C100C8E982 /* interactive-transition-animationsTests */ = {
+		74F58CB52219A3C100C8E982 /* InteractiveTransitionAnimationsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74F58CCD2219A3C100C8E982 /* Build configuration list for PBXNativeTarget "interactive-transition-animationsTests" */;
+			buildConfigurationList = 74F58CCD2219A3C100C8E982 /* Build configuration list for PBXNativeTarget "InteractiveTransitionAnimationsTests" */;
 			buildPhases = (
 				74F58CB22219A3C100C8E982 /* Sources */,
 				74F58CB32219A3C100C8E982 /* Frameworks */,
@@ -176,14 +176,14 @@
 			dependencies = (
 				74F58CB82219A3C100C8E982 /* PBXTargetDependency */,
 			);
-			name = "interactive-transition-animationsTests";
+			name = InteractiveTransitionAnimationsTests;
 			productName = "interactive-transition-animationsTests";
-			productReference = 74F58CB62219A3C100C8E982 /* interactive-transition-animationsTests.xctest */;
+			productReference = 74F58CB62219A3C100C8E982 /* InteractiveTransitionAnimationsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		74F58CC02219A3C100C8E982 /* interactive-transition-animationsUITests */ = {
+		74F58CC02219A3C100C8E982 /* InteractiveTransitionAnimationsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74F58CD02219A3C100C8E982 /* Build configuration list for PBXNativeTarget "interactive-transition-animationsUITests" */;
+			buildConfigurationList = 74F58CD02219A3C100C8E982 /* Build configuration list for PBXNativeTarget "InteractiveTransitionAnimationsUITests" */;
 			buildPhases = (
 				74F58CBD2219A3C100C8E982 /* Sources */,
 				74F58CBE2219A3C100C8E982 /* Frameworks */,
@@ -194,9 +194,9 @@
 			dependencies = (
 				74F58CC32219A3C100C8E982 /* PBXTargetDependency */,
 			);
-			name = "interactive-transition-animationsUITests";
+			name = InteractiveTransitionAnimationsUITests;
 			productName = "interactive-transition-animationsUITests";
-			productReference = 74F58CC12219A3C100C8E982 /* interactive-transition-animationsUITests.xctest */;
+			productReference = 74F58CC12219A3C100C8E982 /* InteractiveTransitionAnimationsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 74F58C9D2219A3BF00C8E982 /* Build configuration list for PBXProject "interactive-transition-animations" */;
+			buildConfigurationList = 74F58C9D2219A3BF00C8E982 /* Build configuration list for PBXProject "InteractiveTransitionAnimations" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				74F58CA12219A3BF00C8E982 /* interactive-transition-animations */,
-				74F58CB52219A3C100C8E982 /* interactive-transition-animationsTests */,
-				74F58CC02219A3C100C8E982 /* interactive-transition-animationsUITests */,
+				74F58CA12219A3BF00C8E982 /* InteractiveTransitionAnimations */,
+				74F58CB52219A3C100C8E982 /* InteractiveTransitionAnimationsTests */,
+				74F58CC02219A3C100C8E982 /* InteractiveTransitionAnimationsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74F58CBB2219A3C100C8E982 /* interactive_transition_animationsTests.swift in Sources */,
+				74F58CBB2219A3C100C8E982 /* InteractiveTransitionAnimationsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74F58CC62219A3C100C8E982 /* interactive_transition_animationsUITests.swift in Sources */,
+				74F58CC62219A3C100C8E982 /* InteractiveTransitionAnimationsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		74F58CB82219A3C100C8E982 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 74F58CA12219A3BF00C8E982 /* interactive-transition-animations */;
+			target = 74F58CA12219A3BF00C8E982 /* InteractiveTransitionAnimations */;
 			targetProxy = 74F58CB72219A3C100C8E982 /* PBXContainerItemProxy */;
 		};
 		74F58CC32219A3C100C8E982 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 74F58CA12219A3BF00C8E982 /* interactive-transition-animations */;
+			target = 74F58CA12219A3BF00C8E982 /* InteractiveTransitionAnimations */;
 			targetProxy = 74F58CC22219A3C100C8E982 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -457,12 +457,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "interactive-transition-animations/Info.plist";
+				INFOPLIST_FILE = InteractiveTransitionAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rachelunthank.interactive-transition-animations";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelunthank.InteractiveTransitionAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,12 +474,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "interactive-transition-animations/Info.plist";
+				INFOPLIST_FILE = InteractiveTransitionAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rachelunthank.interactive-transition-animations";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rachelunthank.InteractiveTransitionAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -502,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/interactive-transition-animations.app/interactive-transition-animations";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteractiveTransitionAnimations.app/InteractiveTransitionAnimations";
 			};
 			name = Debug;
 		};
@@ -522,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/interactive-transition-animations.app/interactive-transition-animations";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteractiveTransitionAnimations.app/InteractiveTransitionAnimations";
 			};
 			name = Release;
 		};
@@ -567,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74F58C9D2219A3BF00C8E982 /* Build configuration list for PBXProject "interactive-transition-animations" */ = {
+		74F58C9D2219A3BF00C8E982 /* Build configuration list for PBXProject "InteractiveTransitionAnimations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74F58CC82219A3C100C8E982 /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74F58CCA2219A3C100C8E982 /* Build configuration list for PBXNativeTarget "interactive-transition-animations" */ = {
+		74F58CCA2219A3C100C8E982 /* Build configuration list for PBXNativeTarget "InteractiveTransitionAnimations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74F58CCB2219A3C100C8E982 /* Debug */,
@@ -585,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74F58CCD2219A3C100C8E982 /* Build configuration list for PBXNativeTarget "interactive-transition-animationsTests" */ = {
+		74F58CCD2219A3C100C8E982 /* Build configuration list for PBXNativeTarget "InteractiveTransitionAnimationsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74F58CCE2219A3C100C8E982 /* Debug */,
@@ -594,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74F58CD02219A3C100C8E982 /* Build configuration list for PBXNativeTarget "interactive-transition-animationsUITests" */ = {
+		74F58CD02219A3C100C8E982 /* Build configuration list for PBXNativeTarget "InteractiveTransitionAnimationsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74F58CD12219A3C100C8E982 /* Debug */,
